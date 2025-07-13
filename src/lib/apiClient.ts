@@ -8,7 +8,7 @@ const apiClient = axios.create({
         language: 'es-ES',
     },
     headers: {
-        Authorization: `Bearer ${apiKey}`,
+        Authorization: `Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzE1NDk5OGNkYmQxNjdlMDU4OTBjOWEyM2E5ODJiNyIsIm5iZiI6MTc1MTA5Mjg0OC4xMzc5OTk4LCJzdWIiOiI2ODVmOGU3MDE0ZjJjMDRiZWU5YWVlYzUiLCJzY29wZXMiOlsiYXBpX3JlYWQiXSwidmVyc2lvbiI6MX0.yYKwEEF21M__ft8P2dYXRnMbo5OXZfqJA5JrFqSNYBo`,
     },
 });
 
